@@ -1,0 +1,81 @@
+:root {
+    --red-border: hsl(0, 78%, 62%);
+    --cyan-border: hsl(180, 62%, 55%);
+    --orange-border: hsl(34, 97%, 64%);
+    --blue-border: hsl(212, 86%, 64%);
+
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+    margin: 0;
+}
+
+main { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#features-section {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+    background-color: 
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* #features-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: red;
+}
+
+#supervisor-feature {
+    align-self: center;
+}
+
+#calculator-feature {
+    align-self: center;
+} */
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 200px;
+    box-shadow: 0px 5px 15px 1px var(--very-dark-blue);
+}
+
+.cyan-border {
+    border-top: 3px solid var(--cyan-border);
+}
+
+.red-border {
+    border-top: 3px solid var(--red-border);
+}
+
+.blue-border {
+    border-top: 3px solid var(--blue-border);
+}
+
+.orange-border {
+    border-top: 3px solid var(--orange-border);
+}
